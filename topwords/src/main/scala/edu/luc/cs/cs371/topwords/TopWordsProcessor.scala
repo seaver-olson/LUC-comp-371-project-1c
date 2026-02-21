@@ -10,7 +10,7 @@ case class WindowState(
 
 object WindowState:
   def empty: //for scan behavior
-    WindowState = WindowState(List.empty, Map.empty, 0)
+    WindowState = WindowState(Vector.empty, Map.empty, 0)
 //stdin args + Observer Object 
 object TopWordsProcessor:
   /**
